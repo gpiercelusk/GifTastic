@@ -1,0 +1,11 @@
+.hidden{
+  display: none;
+};
+
+#gifArea{
+/* margin: 0 auto; */
+}
+.thingsILike{
+  display: block;
+  margin: 0 auto;
+}

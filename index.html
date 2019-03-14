@@ -15,24 +15,24 @@
 <body>
 
   <head>
-    <h1>GifTastic</h1>
+    <h1>This is a page of things that I like</h1>
   </head>
   <br>
 
   <div class="container">
+    <div class="jumbotron">
+      <!-- New topics will get dumped here -->
+      <div id="buttons-view"></div>
+      <br>
+      <form id="gif-form">
+        <label for="gif-input">Add some of your favorite things too! </label>
+        <input type="text" id="topic-input"><br>
 
-    <!-- Movies will get dumped here -->
-    <div class="col-md 6" id="buttons-view"></div>
-    <br>
-    <form class="col-md 6" id="gif-form">
-      <label for="gif-input">Add Something</label>
-      <input type="text" id="topic-input"><br>
-
-      <!-- Button triggers new new topic to be added -->
-      <input class="btn btn-warning" id="add-gifs" type="submit" value="Add GIFs">
-    </form>
-
-    <div id="gifArea"></div>
+        <!-- Button triggers new new topic to be added -->
+        <input class="btn btn-warning" id="add-gifs" type="submit" value="Add GIFs">
+      </form>
+    </div>
+    <div id="gifArea" class="row"></div>
 
   </div>
 
