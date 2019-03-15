@@ -2,10 +2,47 @@
   display: none;
 };
 
-#gifArea{
-/* margin: 0 auto; */
+.jumbotron{
+  font-family: 'Patrick Hand', cursive;
+  display: flex; 
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.btn-warning:hover{
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+   /* align-items: center;
+  justify-content: center; */
+  /* margin: .5px; */
 }
 .thingsILike{
-  display: block;
-  margin: 0 auto;
+    /* background-color: #eeeeee; */
+    height: 85%;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    font-family: 'Patrick Hand', cursive;
+    
 }
+
+footer {
+  font-family: 'Arial, Helvetica, sans-serif';
+  background-color: #777777;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  text-align: center;
+  padding-top: 1px;
+  padding-bottom: 2px;
+  border-top: 8px #4aaaa5 solid;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-decoration: none;
+  color: #4aaaa5;
+
+}
+/* classes(.)= container, jumbotron, btn ,row, topic-btn, still, active-gif,*/
+/* ids(#)= buttons-view, gif-form, add-gifs, gifArea */
+display: flex;

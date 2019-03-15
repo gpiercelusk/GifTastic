@@ -10,17 +10,20 @@
     integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css">
   <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Patrick+Hand" rel="stylesheet">
 </head>
 
 <body>
 
-  <head>
-    <h1>This is a page of things that I like</h1>
-  </head>
-  <br>
+
 
   <div class="container">
     <div class="jumbotron">
+
+      <head>
+        <h1>This is a page of some of the wonderful things that I like</h1>
+      </head>
+      <br>
       <!-- New topics will get dumped here -->
       <div id="buttons-view"></div>
       <br>
@@ -32,9 +35,17 @@
         <input class="btn btn-warning" id="add-gifs" type="submit" value="Add GIFs">
       </form>
     </div>
-    <div id="gifArea" class="row"></div>
+  </div>
+  <div class="container content">
+    <div id="gifArea" class="row col-sm-12"></div>
 
   </div>
+  <br>
+  <footer>
+    <a href="https://github.com/gpiercelusk" target="_blank" id="githubLink">
+      <h4>&copy;G. Pierce Lusk 2019</h4>
+    </a>
+  </footer>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="assets/javascript/app.js"></script>
