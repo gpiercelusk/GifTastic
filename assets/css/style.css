@@ -1,6 +1,6 @@
 .hidden{
   display: none;
-};
+}
 
 .jumbotron{
   font-family: 'Patrick Hand', cursive;
@@ -25,7 +25,7 @@
 }
 
 footer {
-  font-family: 'Arial, Helvetica, sans-serif';
+  font-family: 'Patrick Hand', cursive;
   background-color: #777777;
   margin-top: 0px;
   margin-bottom: 0px;
@@ -45,4 +45,4 @@ footer {
 }
 /* classes(.)= container, jumbotron, btn ,row, topic-btn, still, active-gif,*/
 /* ids(#)= buttons-view, gif-form, add-gifs, gifArea */
-display: flex;
+/* display: flex; */
