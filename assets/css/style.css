@@ -1,8 +1,14 @@
-.hidden{
+.hidden {
   display: none;
 }
-body{
-  background-image: url("images/darkHoneycomb.png");
+
+body {
+  background-image: url("../images/darkHoneycomb.png");
+  /* vertical-align: baseline; */
+    
+}
+h1{
+  font-size: 40px;
 }
 .jumbotron{
   font-family: 'Patrick Hand', cursive;
@@ -10,19 +16,21 @@ body{
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: antiquewhite;
 }
+
 .btn-warning:hover{
   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-   /* align-items: center;
-  justify-content: center; */
-  /* margin: .5px; */
+
 }
 .thingsILike{
     /* background-color: #eeeeee; */
+    color: antiquewhite;
     height: 85%;
     margin-bottom: 10px;
     padding-bottom: 10px;
     font-family: 'Patrick Hand', cursive;
+    /* vertical-align: baseline; */
     
 }
 
