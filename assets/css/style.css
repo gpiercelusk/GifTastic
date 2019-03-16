@@ -1,7 +1,9 @@
 .hidden{
   display: none;
 }
-
+body{
+  background-image: url("images/darkHoneycomb.png");
+}
 .jumbotron{
   font-family: 'Patrick Hand', cursive;
   display: flex; 
